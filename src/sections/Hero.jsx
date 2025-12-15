@@ -13,7 +13,7 @@ const Hero = () => {
   return (
     <section
       id='home'
-      className='flex items-start justify-center md:items-start min-h-screen overflow-hidden c-space'
+      className='flex items-start justify-center md:items-start min-h-screen overflow-hidden md:items-start md:justify-start c-space'
     >
       <HeroText />
       <ParallaxBackground />
