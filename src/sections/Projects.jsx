@@ -15,6 +15,7 @@ const Projects = () => {
   const [preview, setPreview] = useState(null);
   return (
     <section
+      id='projects'
       className='relative c-space section-spacing'
       onMouseMove={handleMouseMove}
     >
